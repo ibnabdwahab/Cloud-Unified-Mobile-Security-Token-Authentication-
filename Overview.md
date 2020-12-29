@@ -1,6 +1,6 @@
 ******************************************************
 
-    Secured OTP Authentication on Mobile Phone
+    Unified Mobile Security Token Authentication 
     
 ******************************************************
 
