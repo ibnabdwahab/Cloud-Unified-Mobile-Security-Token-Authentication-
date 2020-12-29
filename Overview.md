@@ -25,8 +25,11 @@ The mobile OTP solution combines the simple and secure OTP principle with the in
 The solution is based on a simple challenge-response protocol. When the user wants to log in he presents his username, and a challenge is sent to the user’s mobile phone. The OTP MIDlet installed on the phone generates an OTP from the challenge and sends it back to the MFA server. The server verifies that the OTP is correct, and the user is authenticated as seen in the key exchange on the diagram.
 
 Considerations:
+
 • The solution is not available on USSD platform
+
 • For OTP client apps not currently supported, customers can use Google authenticator to connect to this service using standard API calls through Python. Microsoft might make their authenticator available in future.
+
 • Linode is highly recommended for hosting. If customers do not want to use Linode and just do the GCP app service, that would work, too
 
 Conclusively, this is secure authentication solution based on the OTP principle. It shows how an OTP MIDlet turns the mobile phone into a secure and user friendly authentication token. The proposed solution eliminates weaknesses of existing similar solutions such as the need for time synchronization, possibility of man-in-the middle attacks and substantially improves the user-friendliness. It is therefore a very good alternative to the existing authentication solutions such as username-password and existing OTP solutions which require extra hardware and therefore put an extra burden on the user and increase the costs for the companies/service providers.
