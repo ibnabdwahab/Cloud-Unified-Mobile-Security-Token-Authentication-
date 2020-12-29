@@ -1,6 +1,6 @@
 ******************************************************
 
-    Unified Mobile Security Token Authentication 
+    Cloud Unified Mobile Security Token Authentication 
     
 ******************************************************
 
