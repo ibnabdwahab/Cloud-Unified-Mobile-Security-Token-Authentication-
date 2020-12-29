@@ -1,4 +1,4 @@
-# Secured-OTP-Authentication-on-Mobile-Phone
+# Unified Mobile Security Token Authentication 
 
 The number of different identities and credentials used for authentication towards services on the Internet has increased
 beyond the manageable. Still, the most common authentication scheme is based on usernames and passwords. This is a
